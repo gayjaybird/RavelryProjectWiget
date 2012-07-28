@@ -1,0 +1,73 @@
+body {
+	font-family: Arial, Verdana, Geneva, sans-serif;
+	color: #8cf5a0;
+	background-color: #000;
+}
+
+.On_the_Needles {
+	margin: auto;
+	vertical-align: middle;
+	}
+
+.rav_project {
+	border-style: outset;
+	border-color: #8cf5a0;
+	color: #000000;
+	height: 180px;
+	width: 95px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+}
+
+.rav_project a.rav_title {
+	color: #a08cf5;
+	font-size: .9em;
+}
+
+.rav_project .rav_progress_text {
+	color: #000000;
+	position: relative;
+	text-align: center;
+}
+
+.rav_project .rav_progress_bar_wrapper {
+	border: 1px solid #eee;
+	margin-top: 2px;
+} 
+
+.rav_project .rav_progress_bar { 
+	position: relative;
+	padding: 1px;
+	border-left: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background-color: #eee;
+}
+
+.rav_project .rav_progress_bar .rav_progress_filled { 
+	position: absolute;
+}
+
+.rav_project .rav_photo_link {
+	margin-bottom: 5px;
+	display: block;
+	width: 77px;
+	height: 77px;
+	margin-left: 1px;
+	margin-top: 5px;
+	border: 1px solid #cccccc;
+}
+
+.rav_project .rav_photo_link img {
+	width: 75px;
+	height: 75px;
+	border: 1px solid #ffffff;
+}
+
+.rav_project_with_photos {
+	margin-bottom: 20px;
+}
